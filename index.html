@@ -20,8 +20,16 @@
             background: #333;  
             color: white;  
             padding: 1rem;  
-            text-align: center;  
-        }  
+            text-align: center;
+            position: relative; 
+        }
+        .donate {
+          padding: 1rem; 
+          font-size: 1rem;
+          color: red;
+          position: absolute;
+          right: 1rem;
+        }
         .container {  
             max-width: 1200px;  
             margin: 0 auto;  
@@ -63,7 +71,7 @@
             position: fixed;  
             bottom: 0;  
             width: 100%;  
-        }  
+        }
         @media (max-width: 768px) {  
             .product-grid {  
                 grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));  
@@ -73,34 +81,40 @@
 </head>  
 <body>  
     <header>  
-        <h1>简单商城</h1>  
+        <h1>简单商城<a class="donate" href="https://nowpayments.io/donation/donate.crypto">捐赠</a></h1>
     </header>  
       
     <div class="container">  
         <div class="product-grid">  
             <!-- 商品卡片1 -->  
-            <div class="card">  
-                <img src="https://via.placeholder.com/300x200.png?text=商品1" alt="商品1">  
+            <div class="card" >  
+                <img src="https://pic.rmb.bdstatic.com/bjh/news/3fe6db1a8d291be39192f9a06c74ce99.png" alt="商品1">  
                 <div class="card-content">  
                     <h3>商品名称1</h3>  
                     <p>商品描述1</p>  
                     <div class="price">¥99.00</div>  
+                    <a href="https://nowpayments.io/payment/?iid=4366882802" target="_blank">
+                        付款
+                    </a>
                 </div>  
             </div>  
               
             <!-- 商品卡片2 -->  
             <div class="card">  
-                <img src="https://via.placeholder.com/300x200.png?text=商品2" alt="商品2">  
+                <img src="https://pic.rmb.bdstatic.com/bjh/news/3fe6db1a8d291be39192f9a06c74ce99.png" alt="商品2">  
                 <div class="card-content">  
                     <h3>商品名称2</h3>  
                     <p>商品描述2</p>  
                     <div class="price">¥199.00</div>  
+                    <a href="https://nowpayments.io/payment/?iid=4366882802" target="_blank">
+                        付款
+                    </a>
                 </div>  
             </div>  
               
             <!-- 商品卡片3 -->  
             <div class="card">  
-                <img src="https://via.placeholder.com/300x200.png?text=商品3" alt="商品3">  
+                <img src="https://pic.rmb.bdstatic.com/bjh/news/3fe6db1a8d291be39192f9a06c74ce99.png" alt="商品3">  
                 <div class="card-content">  
                     <h3>商品名称3</h3>  
                     <p>商品描述3</p>  
@@ -110,7 +124,7 @@
               
             <!-- 商品卡片4 -->  
             <div class="card">  
-                <img src="https://via.placeholder.com/300x200.png?text=商品4" alt="商品4">  
+                <img src="https://pic.rmb.bdstatic.com/bjh/news/3fe6db1a8d291be39192f9a06c74ce99.png" alt="商品4">  
                 <div class="card-content">  
                     <h3>商品名称4</h3>  
                     <p>商品描述4</p>  
@@ -120,7 +134,7 @@
               
             <!-- 商品卡片5 -->  
             <div class="card">  
-                <img src="https://via.placeholder.com/300x200.png?text=商品5" alt="商品5">  
+                <img src="https://pic.rmb.bdstatic.com/bjh/news/3fe6db1a8d291be39192f9a06c74ce99.png" alt="商品5">  
                 <div class="card-content">  
                     <h3>商品名称5</h3>  
                     <p>商品描述5</p>  
@@ -130,7 +144,7 @@
               
             <!-- 商品卡片6 -->  
             <div class="card">  
-                <img src="https://via.placeholder.com/300x200.png?text=商品6" alt="商品6">  
+                <img src="https://pic.rmb.bdstatic.com/bjh/news/3fe6db1a8d291be39192f9a06c74ce99.png" alt="商品6">  
                 <div class="card-content">  
                     <h3>商品名称6</h3>  
                     <p>商品描述6</p>  
@@ -139,9 +153,8 @@
             </div>  
         </div>  
     </div>  
-      
     <footer>  
-        <p>&copy; 2023 简单商城 | 版权所有</p>  
+        <p>&copy; 2026 简单商城 | 版权所有</p>  
     </footer>  
 </body>  
-</html>```
+</html>
